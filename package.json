@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@nuxtjs/eslint-config-typescript": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-storybook": "^0.5.7",
+    "eslint-plugin-vue": "^8.4.1",
+    "nuxt3": "3.0.0-27406801.569aaeb",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.5",
+    "vue-loader": "^16.8.3"
+  },
+  "dependencies": {
+    "jest": "27.4.0"
+  }
+}
